@@ -1,0 +1,51 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+    margin: 0;
+}
+
+.nav {
+    background: rgb(174, 173, 173);
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding:  0 2em;
+    align-items: stretch;
+    /* margin: 0; */
+}   
+
+
+.site-title {
+    font-size: 3em;
+}
+
+.nav ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    gap: 1em;
+
+}
+
+
+.nav a {
+    color: inherit;
+    text-decoration: none;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    padding: 0 .5em;
+}
+
+.nav li.active {
+    background: rgb(202, 198, 198);
+}
+
+.nav li:hover{
+    background: rgb(132, 128, 128);
+}
+
